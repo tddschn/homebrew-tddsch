@@ -16,10 +16,10 @@ class Clash < Formula
   # def install
   #   system "go", "get" 
   # end
-  def install
-    system "gobuild.sh"
-    bin.install ".gobuild/bin/tf" => "tf"
-  end
+  # def install
+  #   system "gobuild.sh"
+  #   bin.install ".gobuild/bin/tf" => "tf"
+  # end
 
   def plist; <<~EOS
   <?xml version="1.0" encoding="UTF-8"?>
