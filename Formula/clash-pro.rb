@@ -1,5 +1,5 @@
-class Clash < Formula
-  desc "A rule-based tunnel in Go."
+class ClashPro < Formula
+  desc "A rule-based tunnel in Go. Premium version."
   homepage "https://github.com/Dreamacro/clash"
   url "https://github.com/Dreamacro/clash/releases/download/premium/clash-darwin-amd64-2020.09.27.gz"
   sha256 "ce0091456dbaf148622d8c8a6789a45c61fde1396bf880309b59f1ca860daf97"
